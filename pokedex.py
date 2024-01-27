@@ -7,6 +7,10 @@ def obtener_pokemon(nombre):
     return pokemon
 
 
+
 pokemon = obtener_pokemon("pikachu")
 
-print(pokemon.get('abilities'))
+claves_pokemon = pokemon.keys()
+
+for claves in claves_pokemon:
+    print(claves)
