@@ -12,5 +12,9 @@ pokemon = obtener_pokemon("pikachu")
 
 claves_pokemon = pokemon.keys()
 
+abilities = pokemon.items()
+
+print(abilities)
+
 for claves in claves_pokemon:
     print(claves)
